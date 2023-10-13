@@ -1,0 +1,117 @@
+@font-face {
+  font-family: "montserrat";
+  src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "montserrat";
+}
+.container {
+  max-width: 1480px;
+  margin: 0 auto;
+}
+/* Header */
+nav {
+  padding: 28px 0 22px;
+  background-color: black;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+nav ul a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  word-wrap: break-word;
+  font-size: 19px;
+  font-weight: 800;
+}
+/* Main */
+main {
+  background-image: url(../img/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 102px 0;
+}
+#product {
+  background-color: black;
+  padding: 70px 120px 95px 110px;
+  text-align: center;
+}
+#product h1 {
+  font-size: 64px;
+  color: #fd7d54;
+  font-weight: 800;
+  line-height: 78px;
+  letter-spacing: 0.6px;
+  word-wrap: break-word;
+}
+#product > p {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  word-wrap: break-word;
+  margin: 18px 0 50px;
+}
+.box {
+  display: flex;
+  gap: 85px;
+}
+.card {
+  padding: 45px 35px 25px;
+  border: 2px solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card h3 {
+  margin-top: 40px;
+  color: white;
+  font-size: 27px;
+  font-weight: 800;
+  letter-spacing: 3.24px;
+  word-wrap: break-word;
+  text-transform: uppercase;
+}
+.card span {
+  width: 23px;
+  height: 3px;
+  background-color: white;
+  margin: 18px 0 17px;
+}
+.card p {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0.54px;
+  word-wrap: break-word;
+  margin-bottom: 25px;
+}
+.card a {
+  color: #41c3f6;
+  font-size: 19px;
+  font-weight: 800;
+  letter-spacing: 2.28px;
+  word-wrap: break-word;
+  height: 50px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+/* Footer */
+footer {
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  word-wrap: break-word;
+  padding: 30px 0;
+}
